@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Sign-up form</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="java.js" defer></script>
 </head>
 <body>
     <div class="container left">
@@ -34,13 +35,14 @@
                     <input type="email" id="email" name="email" placeholder="thor@avengers.com">
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password">
+                    <p id="noMatch" class="noMatch">*Passowrds don't match</p>
                     <button type="submit" id="btn">Create Account</button>
                 </div>
                 <div class="formright">
                     <label for="last-name">Last Name:</label>
                     <input type="text" id="last-name" name="last-name" placeholder="Odinson">
                     <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="1 (800) ave-nger">
+                    <input type="tel" id="phone" name="phone" placeholder="1 (800) AVENGER">
                     <label for="confirm-password">Confirm password:</label>
                     <input type="password" id="confirm-password">
                 </div>
